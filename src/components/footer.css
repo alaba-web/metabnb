@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #1d1d1e;
+  font-family: Red Rose, sans-serif;
+  padding: 43px 100px;
+}
+
+.containe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  flex-wrap: wrap;
+  color: #f1f3f9;
+}
+
+.foot_start {
+  align-self: flex-start;
+}
+
+.icons {
+  margin-top: 96px;
+}
+
+.icons a {
+  margin-right: 32px;
+}
+
+small {
+  color: #f1f3f9;
+}

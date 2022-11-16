@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card-body {
+  width: 292px;
+  height: 372px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Red Rose, sans-serif;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  color: #434343;
+  border: 1px solid #d7d7d7;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.card-nft {
+  position: relative;
+  width: 260px;
+  height: 265px;
+  margin: 16px auto;
+}
+
+.card-nft .heart {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  z-index: 3;
+}
+
+.card-p1,
+.card-p2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.card-p1 {
+  margin-bottom: 8px;
+}
+
+.card-p1 > p,
+.card-p2 > p {
+  margin-bottom: 2px;
+}
+
+.mbt-span {
+  font-weight: 700;
+}
+
+.stars {
+  margin-left: 8px;
+}
+
+.stars > img {
+  margin-left: 8px;
+}

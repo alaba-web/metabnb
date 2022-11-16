@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Red Rose, sans-serif;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 67px 100px;
+}
+
+.hero-head {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #434343;
+}
+
+.hero-head > span {
+  font-weight: 700;
+  color: #a02279;
+}
+
+.hero-parag {
+  font-size: 24px;
+  color: #434343;
+  line-height: 1.46;
+}
+
+.hero-search {
+  height: 54px;
+}
+
+.hero-search > button {
+  border-radius: 0px 8px 8px 0px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  height: 100%;
+  padding: 17px 87px;
+  border: none;
+}
+
+#search {
+  max-width: 390px;
+  height: 100%;
+  border: 1px solid #a3a3a3;
+  border-radius: 8px 0px 0px 8px;
+  padding-left: 15px;
+}
+
+#search:focus {
+  outline: none;
+  background-color: #a3a3a3;
+}
+
+.sub-sec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #a02279;
+  padding: 10px 137.77px;
+}
+
+.nft-sec {
+  padding: 53px 100px;
+}
+
+.nft-sec > h2 {
+  font-weight: 700;
+  font-size: 48px;
+  margin: 58px auto;
+  color: #000000;
+  text-align: center;
+}
+
+.nft-cards {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.third-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a02279;
+  padding: 100px;
+}
+
+.third-head {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+.third-parag {
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 1.46;
+  margin-bottom: 57.55px;
+  margin-top: 10px;
+}
+
+.buttn {
+  padding: 14px 33px;
+  background-color: #ffffff;
+  color: #a02279;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.buttn:hover {
+  background-color: #a76993;
+  color: #ffffff;
+}
+
+@media (max-width: 992px) {
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .third-sec {
+    flex-direction: column;
+  }
+
+  .nft-photo,
+  .hero-photo {
+    margin-top: 50px;
+  }
+
+  .nft-photo > img,
+  .hero-photo > img {
+    width: 300px;
+  }
+
+  #search {
+    width: 180px;
+  }
+
+  .hero-search > button {
+    padding: 17px 20px;
+  }
+}
