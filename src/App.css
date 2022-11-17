@@ -81,11 +81,10 @@
 }
 
 .nft-cards {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 24px;
-  align-items: center;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .third-sec {
@@ -151,5 +150,17 @@
 
   .hero-search > button {
     padding: 17px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nft-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 430px) {
+  .nft-cards {
+    grid-template-columns: 1fr;
   }
 }
