@@ -41,7 +41,9 @@ function App() {
               placeholder="Search for location"
               required
             />
-            <button type="submit">Search</button>
+            <button type="submit" className="butn">
+              Search
+            </button>
           </div>
         </div>
         <div className="hero-photo">

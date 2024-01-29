@@ -29,3 +29,11 @@
   font-size: 16px;
   font-weight: 400;
 }
+
+/* media querries */
+
+@media (max-width: 430px) {
+  .places {
+    padding-left: 20px;
+  }
+}
